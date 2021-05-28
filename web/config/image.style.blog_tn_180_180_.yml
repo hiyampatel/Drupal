@@ -1,0 +1,15 @@
+uuid: bb07bb23-4e84-465a-8b16-7dc8d0e1d1f0
+langcode: en
+status: true
+dependencies: {  }
+name: blog_tn_180_180_
+label: 'Blog tn (180×180)'
+effects:
+  1a1288f8-ff60-4dec-8cd4-e6bac8104543:
+    uuid: 1a1288f8-ff60-4dec-8cd4-e6bac8104543
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 180
+      height: 180
+      anchor: center-center
