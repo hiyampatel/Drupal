@@ -9,7 +9,11 @@ label: Administrator
 <<<<<<< HEAD
 weight: -7
 =======
+<<<<<<< HEAD
+weight: -7
+=======
 weight: 2
 >>>>>>> cec6bb9255f4dd59c3b7f5b10dcc1dbe919ae800
+>>>>>>> c42fc2011d87328df0555c0a2f57b4a2d97b6f37
 is_admin: true
 permissions: {  }

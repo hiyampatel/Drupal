@@ -1,0 +1,51 @@
+uuid: b46553c0-43d7-4022-aaf1-6d3de275e863
+langcode: en
+status: true
+dependencies: {  }
+id: new_content_created
+label: 'New content created'
+events:
+  -
+    event_name: 'rules_entity_insert:node'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: 6b7cca53-2089-48a6-b166-92e13c3abea0
+  weight: 0
+  conditions:
+    id: rules_and
+    uuid: 41f24bb4-8072-45c9-852c-05c443cf443f
+    weight: 0
+    conditions: {  }
+  actions:
+    id: rules_action_set
+    uuid: bfdd94f8-11fc-4d86-b88e-05fac57ee7fb
+    weight: 0
+    actions:
+      -
+        id: rules_action
+        uuid: 7bf862d8-7c34-47e4-8bac-2edb8166b784
+        weight: 0
+        context_values:
+          to:
+            - '{{ @user.current_user_context:current_user.mail.value }}'
+          subject: 'Created new content!'
+          message: 'New content created with title <b>{{ node.title.value }}</b>!!!'
+          reply: ''
+          language: ''
+        context_mapping: {  }
+        context_processors:
+          to:
+            rules_tokens: {  }
+          subject:
+            rules_tokens: {  }
+          message:
+            rules_tokens: {  }
+          reply:
+            rules_tokens: {  }
+          language:
+            rules_tokens: {  }
+        provides_mapping: {  }
+        action_id: rules_send_email
