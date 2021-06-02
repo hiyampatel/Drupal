@@ -1,4 +1,4 @@
-uuid: 5afc1704-62c3-43f8-bba3-1a130dd8bdfa
+uuid: 2734b043-6aea-4bb5-8a39-997d772afc22
 langcode: en
 status: true
 dependencies:
@@ -206,8 +206,8 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        view_node_1:
-          id: view_node_1
+        view_node:
+          id: view_node
           table: node
           field: view_node
           relationship: none
@@ -218,7 +218,7 @@ display:
           alter:
             alter_text: false
             text: ''
-            make_link: true
+            make_link: false
             path: ''
             absolute: false
             external: false
@@ -230,7 +230,7 @@ display:
             link_class: ''
             prefix: ''
             suffix: ''
-            target: _blank
+            target: ''
             nl2br: false
             max_length: 0
             word_boundary: true
@@ -318,26 +318,6 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_blogs_thumbnail'
-  block_1:
-    display_plugin: block
-    id: block_1
-    display_title: Block
-    position: 2
-    display_options:
-      display_extenders: {  }
-      title: Homepage
-      defaults:
-        title: false
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags:
-        - 'config:field.storage.node.field_blogs_thumbnail'
   page_1:
     display_plugin: page
     id: page_1
@@ -346,6 +326,15 @@ display:
     display_options:
       display_extenders: {  }
       path: homepage
+      menu:
+        type: none
+        title: Homepage
+        description: ''
+        expanded: false
+        parent: ''
+        weight: 0
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:
