@@ -1,0 +1,35 @@
+uuid: 2f57e985-df84-4384-9d00-574d435d7a41
+langcode: en
+status: true
+dependencies: {  }
+id: content_editor
+label: 'Content Editor'
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create article content'
+  - 'create author content'
+  - 'create blog content'
+  - 'create page content'
+  - 'delete own article content'
+  - 'delete own author content'
+  - 'delete own blog content'
+  - 'delete own page content'
+  - 'edit own article content'
+  - 'edit own author content'
+  - 'edit own blog content'
+  - 'edit own page content'
+  - 'unpublish own node type article'
+  - 'unpublish own node type author'
+  - 'unpublish own node type blog'
+  - 'unpublish own node type page'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view author revisions'
+  - 'view blog revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
