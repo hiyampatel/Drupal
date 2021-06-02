@@ -30,12 +30,18 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+<<<<<<< HEAD
   phpmailer_smtp: 0
+=======
+>>>>>>> cec6bb9255f4dd59c3b7f5b10dcc1dbe919ae800
   quickedit: 0
   rdf: 0
   search: 0
   shortcut: 0
+<<<<<<< HEAD
   smtp: 0
+=======
+>>>>>>> cec6bb9255f4dd59c3b7f5b10dcc1dbe919ae800
   system: 0
   taxonomy: 0
   text: 0
@@ -55,7 +61,13 @@ theme:
   olivero: 0
   stable: 0
   classy: 0
+<<<<<<< HEAD
   stark: 0
+=======
+  mine: 0
+  stark: 0
+  vani: 0
+>>>>>>> cec6bb9255f4dd59c3b7f5b10dcc1dbe919ae800
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

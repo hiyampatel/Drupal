@@ -1,4 +1,8 @@
 admin: seven
+<<<<<<< HEAD
 default: bartik
+=======
+default: mine
+>>>>>>> cec6bb9255f4dd59c3b7f5b10dcc1dbe919ae800
 _core:
   default_config_hash: fOjer9hADYYnbCJVZMFZIIM1azTFWyg84ZkFDHfAbUg
