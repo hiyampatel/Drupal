@@ -19,6 +19,7 @@
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/smtp": "^1.0",
         "drupal/pathauto": "^1.8",
         "drupal/vani": "^8.1",
         "drupal/rules": "3.x-dev@dev",
