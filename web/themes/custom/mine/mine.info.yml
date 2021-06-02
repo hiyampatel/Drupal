@@ -1,0 +1,8 @@
+name: Mine Theme
+type: theme
+description: This is a Mine sub theme of Olivero
+core_version_requirement: ^8 || ^9
+base theme: olivero
+
+libraries:
+  - mine/global-styling

@@ -1,0 +1,46 @@
+header .region-header img
+{
+  max-height: 50px;
+  max-width: 50px;
+}
+
+header a .site-name
+{
+  text-decoration: none;
+}
+
+.view-content .views-row
+{
+  border: 1px #dddddd solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.view-content .views-row h2
+{
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.view-content .views-field
+{
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.view-content .views-field:last-child
+{
+  text-align: right;
+  padding-right: 30px;
+}
+
+.view-content .views-field a
+{
+  border: 1px #0d77b5 solid;
+  padding: 5px 7px;
+  color: #ffffff;
+  background-color: #0d77b5;
+  text-decoration: none;
+  border-radius: 2px;
+}
