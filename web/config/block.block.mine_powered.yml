@@ -1,0 +1,22 @@
+uuid: 12ba519e-d3e6-4808-996a-78d258ee863e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mine
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: mine_powered
+theme: mine
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
