@@ -1,0 +1,28 @@
+uuid: dd650ec9-d462-4887-94b9-2285fb85f551
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.brief
+    - field.field.node.author.field_author_thumbnail
+    - image.style.author_tn_200_200_
+    - node.type.author
+  module:
+    - image
+    - user
+id: node.author.brief
+targetEntityType: node
+bundle: author
+mode: brief
+content:
+  field_author_thumbnail:
+    weight: 1
+    label: inline
+    settings:
+      image_style: author_tn_200_200_
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  links: true

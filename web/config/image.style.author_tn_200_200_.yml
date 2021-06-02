@@ -1,0 +1,15 @@
+uuid: a667ea82-05c9-4783-a2ea-95222301c3f7
+langcode: en
+status: true
+dependencies: {  }
+name: author_tn_200_200_
+label: 'Author tn (200×200)'
+effects:
+  fb0bee9e-ed44-42e2-a54b-8b46251a91cf:
+    uuid: fb0bee9e-ed44-42e2-a54b-8b46251a91cf
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      anchor: center-center

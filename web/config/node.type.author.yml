@@ -1,0 +1,17 @@
+uuid: d3bbb212-2efc-4aa8-bce2-442107f79570
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Author
+type: author
+description: 'Use author for displaying list of author and their description.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
