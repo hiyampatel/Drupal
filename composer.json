@@ -25,6 +25,7 @@
         "drupal/smtp": "^1.0",
         "drupal/typed_data": "1.x-dev@dev",
         "drupal/vani": "^8.1",
+        "drupal/webform": "^6.0",
         "drush/drush": "^10.5"
     },
     "conflict": {
