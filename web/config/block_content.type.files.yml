@@ -1,0 +1,8 @@
+uuid: fc99ef40-84d7-4a47-b79e-d5b340fee0f6
+langcode: en
+status: true
+dependencies: {  }
+id: files
+label: File
+revision: 0
+description: 'A file block has a title and a file field. '
