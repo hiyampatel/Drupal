@@ -2,6 +2,8 @@ uuid: f8b87d5e-7434-4237-be2d-cf0e1c29177d
 langcode: en
 status: true
 dependencies:
+  module:
+    - user
   theme:
     - bartik
 _core:
@@ -17,4 +19,11 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
