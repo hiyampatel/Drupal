@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - ctools
     - user
   theme:
     - bartik
@@ -27,3 +28,10 @@ visibility:
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'
+  'entity_bundle:webform_submission':
+    id: 'entity_bundle:webform_submission'
+    bundles:
+      contact_us: contact_us
+    negate: false
+    context_mapping:
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'
