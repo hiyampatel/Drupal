@@ -1,0 +1,23 @@
+uuid: d6196cf3-cdf8-4f3b-8461-fd6dd1754041
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.files
+    - field.field.block_content.files.field_upload_file
+  module:
+    - file
+id: block_content.files.default
+targetEntityType: block_content
+bundle: files
+mode: default
+content:
+  field_upload_file:
+    weight: 1
+    label: inline
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden: {  }

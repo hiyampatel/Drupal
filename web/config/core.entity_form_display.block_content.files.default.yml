@@ -1,0 +1,30 @@
+uuid: 94ed378d-1f12-4533-9136-0211e40fd11f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.files
+    - field.field.block_content.files.field_upload_file
+  module:
+    - file
+id: block_content.files.default
+targetEntityType: block_content
+bundle: files
+mode: default
+content:
+  field_upload_file:
+    weight: 27
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
