@@ -1,0 +1,30 @@
+uuid: 44bf00bc-f899-4934-900e-fb2ac18ae7e9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:files:cc0199f7-53a7-4071-9832-7c8e7cdebfbc'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: nature
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'block_content:cc0199f7-53a7-4071-9832-7c8e7cdebfbc'
+settings:
+  id: 'block_content:cc0199f7-53a7-4071-9832-7c8e7cdebfbc'
+  label: Nature
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /homepage
+    negate: false
