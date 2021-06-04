@@ -18,7 +18,22 @@ expression:
     id: rules_and
     uuid: 41f24bb4-8072-45c9-852c-05c443cf443f
     weight: 0
-    conditions: {  }
+    conditions:
+      -
+        id: rules_condition
+        uuid: cd6de033-24a4-484a-8736-2661682ec85b
+        weight: 0
+        context_values:
+          types:
+            - blog
+        context_mapping:
+          node: node
+        context_processors:
+          types:
+            rules_tokens: {  }
+        provides_mapping: {  }
+        condition_id: rules_node_is_of_type
+        negate: false
   actions:
     id: rules_action_set
     uuid: bfdd94f8-11fc-4d86-b88e-05fac57ee7fb
