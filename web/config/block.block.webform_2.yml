@@ -1,0 +1,30 @@
+uuid: 06e46aa5-ca04-4e80-a2cf-bb9bd77ad88d
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact_us
+  module:
+    - system
+    - webform
+  theme:
+    - bartik
+id: webform_2
+theme: bartik
+region: footer_fifth
+weight: -8
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Contact Us'
+  provider: webform
+  label_display: visible
+  webform_id: contact_us
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /basic-page/contact-us
+    negate: true
